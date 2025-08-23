@@ -11,11 +11,13 @@
 function checkRecord(s) {
     // Проверяем, что количество 'A' ≤ 1
     const absentCount = [...s].filter(c => c === 'A').length;
-    if (absentCount > 1) return false;
-
+    if (absentCount > 1) {
+        return false;
+    }
     // Проверяем, есть ли 3 подряд 'L'
-    if (s.includes('LLL')) return false;
-
+    if (s.includes('LLL')) {
+        return false;
+    }
     return true;
 }
 // Примеры
