@@ -45,14 +45,3 @@ console.log(addDigits(1234)); // 1 (1+2+3+4=10 -> 1+0=1)
 
 
 
-
-
-function addDigits(num) {
-
-}
-
-
-
-console.log(addDigits(38)); // 2
-console.log(addDigits(0));  // 0
-console.log(addDigits(1234)); // 1 (1+2+3+4=10 -> 1+0=1)
