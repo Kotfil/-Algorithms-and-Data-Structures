@@ -31,7 +31,7 @@ const zjadnyAlgor = (coins, amount) => {
 }
 console.log(zjadnyAlgor([1, 5, 10, 25], 63))
 
-//binarySearch
+//binarySearch.js
 //Жадные алгоритмы
 //mergeSortRecursion
 

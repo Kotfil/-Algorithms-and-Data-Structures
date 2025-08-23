@@ -1,4 +1,4 @@
-//classic binarySearch ______________1______________
+//classic binarySearch.js ______________1______________
 function binarySearchIterative(arr, target) {
     let left = 0;
     let right = arr.length - 1;
