@@ -9,10 +9,7 @@ class Solution {
 
         // 1. Проход слева направо (считаем произведения всех элементов слева)
         res[0] = 1;
-        // console.log(res,'res')
         for (let i = 1; i < n; i++) {
-            // console.log(res[i - 1] ,'res[i - 1] ')
-            console.log(nums[i - 1],'nums[i - 1]')
             res[i] = res[i - 1] * nums[i - 1];
         }
 
@@ -32,8 +29,6 @@ class Solution {
 // const solution = new Solution();
 // console.log(solution.productExceptSelf([1, 2, 4, 6])); // [48, 24, 12, 8]
 // console.log(solution.productExceptSelf([-1, 0, 1, 2, 3])); // [0, -6, 0, 0, 0]
- const solution = new Solution();
-solution.productExceptSelf([-1, 0, 1, 2, 3])
-solution.productExceptSelf([1, 2, 4, 6])
-// console.log(solution.productExceptSelf([1, 2, 4, 6])); // [48, 24, 12, 8]
-// console.log(solution.productExceptSelf([-1, 0, 1, 2, 3])); // [0, -6, 0, 0, 0]
+const solution = new Solution();
+console.log(solution.productExceptSelf([1, 2, 4, 6])); // [48, 24, 12, 8]
+console.log(solution.productExceptSelf([-1, 0, 1, 2, 3])); // [0, -6, 0, 0, 0]
